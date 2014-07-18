@@ -1,0 +1,198 @@
+body{
+	background:steelblue;
+	color:white;
+}
+
+.card-area{
+	background:black;
+	margin:20px;
+	border:1px solid white;
+}
+
+#points{
+	height:100px;
+	width:100px;
+	background:black;
+	color:white;
+
+}
+.card{
+	width:84px;
+	height:117px;
+	border:1px solid black;
+	background-image:url('imgs/modern_13x4_3_4.png');
+}
+
+
+
+/************************************
+CSS FOR EACH PLAYING CARD
+*************************************/
+.card {
+	height: 117px;
+	width: 84px;
+	display: inline-block;
+	background-image:url('imgs/modern_13x4_3_4.png')
+	border-radius:5px;
+	border:3px solid black;
+
+}
+.card.facedown {
+	background-image: url('/cg/simple/static/images/blackjack/card_back.png')
+}
+.clubs.rank1 {
+	background-position: 0px 0px
+}
+ .clubs.rank2 {
+	background-position: -84px 0px
+}
+ .clubs.rank3 {
+	background-position: -168px 0px
+}
+ .clubs.rank4 {
+	background-position: -252px 0px
+}
+ .clubs.rank5 {
+	background-position: -336px 0px
+}
+ .clubs.rank6 {
+	background-position: -420px 0px
+}
+ .clubs.rank7 {
+	background-position: -504px 0px
+}
+ .clubs.rank8 {
+	background-position: -588px 0px
+}
+ .clubs.rank9 {
+	background-position: -672px 0px
+}
+ .clubs.rank10 {
+	background-position: -756px 0px
+}
+ .clubs.rank11 {
+	background-position: -840px 0px
+}
+ .clubs.rank12 {
+	background-position: -924px 0px
+}
+ .clubs.rank13 {
+	background-position: -1008px 0px
+}
+ .diamonds.rank1 {
+	background-position: 0px -117px
+}
+ .diamonds.rank2 {
+	background-position: -84px -117px
+}
+ .diamonds.rank3 {
+	background-position: -168px -117px
+}
+ .diamonds.rank4 {
+	background-position: -252px -117px
+}
+ .diamonds.rank5 {
+	background-position: -336px -117px
+}
+ .diamonds.rank6 {
+	background-position: -420px -117px
+}
+ .diamonds.rank7 {
+	background-position: -504px -117px
+}
+ .diamonds.rank8 {
+	background-position: -588px -117px
+}
+ .diamonds.rank9 {
+	background-position: -672px -117px
+}
+ .diamonds.rank10 {
+	background-position: -756px -117px
+}
+ .diamonds.rank11 {
+	background-position: -840px -117px
+}
+ .diamonds.rank12 {
+	background-position: -924px -117px
+}
+ .diamonds.rank13 {
+	background-position: -1008px -117px
+}
+ .hearts.rank1 {
+	background-position: 0px -234px
+}
+ .hearts.rank2 {
+	background-position: -84px -234px
+}
+ .hearts.rank3 {
+	background-position: -168px -234px
+}
+ .hearts.rank4 {
+	background-position: -252px -234px
+}
+ .hearts.rank5 {
+	background-position: -336px -234px
+}
+ .hearts.rank6 {
+	background-position: -420px -234px
+}
+ .hearts.rank7 {
+	background-position: -504px -234px
+}
+ .hearts.rank8 {
+	background-position: -588px -234px
+}
+ .hearts.rank9 {
+	background-position: -672px -234px
+}
+ .hearts.rank10 {
+	background-position: -756px -234px
+}
+ .hearts.rank11 {
+	background-position: -840px -234px
+}
+ .hearts.rank12 {
+	background-position: -924px -234px
+}
+ .hearts.rank13 {
+	background-position: -1008px -234px
+}
+ .spades.rank1 {
+	background-position: 0px -351px
+}
+ .spades.rank2 {
+	background-position: -84px -351px
+}
+ .spades.rank3 {
+	background-position: -168px -351px
+}
+ .spades.rank4 {
+	background-position: -252px -351px
+}
+ .spades.rank5 {
+	background-position: -336px -351px
+}
+ .spades.rank6 {
+	background-position: -420px -351px
+}
+ .spades.rank7 {
+	background-position: -504px -351px
+}
+ .spades.rank8 {
+	background-position: -588px -351px
+}
+ .spades.rank9 {
+	background-position: -672px -351px
+}
+ .spades.rank10 {
+	background-position: -756px -351px
+}
+ .spades.rank11 {
+	background-position: -840px -351px
+}
+ .spades.rank12 {
+	background-position: -924px -351px
+}
+ .spades.rank13 {
+	background-position: -1008px -351px
+}
